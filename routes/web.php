@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('facturacuentavalores', 'App\Http\Controllers\FacturaCuentaValoresController@main');
+Route::get('cargueinventarios', 'App\Http\Controllers\CargueinventariosController@main');
