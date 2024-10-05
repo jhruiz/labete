@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
         $schedule->command('command:ajustarfacturacuentavalores')->everyTenMinutes();
-        $schedule->command('command:command:ajustarcostocargueinventario')->command:everyTenMinutes();
+        $schedule->command('command:ajustarcostocargueinventario')->everyTenMinutes();
     }
 
     /**
