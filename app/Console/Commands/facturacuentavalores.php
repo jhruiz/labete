@@ -56,9 +56,15 @@ class facturacuentavalores extends Command
     private function obtenerConexiones() {
 
         return array(
+            'mysql_advstore',
+            'mysql_eliteautos',
+            'mysql_motorlab',
+            'mysql_motormedics',
             'mysql_pymes',
-            // 'mysql_ssmedellin',
-            // 'mysql_ssbogota'
+            'mysql_ssbogota',
+            'mysql_ssmedellin',
+            'mysql_servitecala10',
+            'mysql_torque'
         );
 
     }  

@@ -16,7 +16,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('command:ajustarfacturacuentavalores')->hourly()->sendOutputTo('task-output.log');
+        $schedule->command('command:ajustarfacturacuentavalores')->everyTenMinutes()->sendOutputTo('task-output.log');
     }
 
     /**
